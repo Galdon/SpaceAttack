@@ -1,0 +1,66 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "playerDestroy",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.85,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8c02c253-47b7-4b07-b93b-e6587fe9926e"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "335bdc16-5812-4025-9729-bf32c1673faa"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "8e0d5699-e425-425c-9fc9-101655a793db"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "2550afcd-02ef-4e76-a17b-4d23398ac487"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "e884c999-d621-407d-8a93-5f15a97ac98f"
+            }
+          },
+          {
+            "frame": 0.8333333333333334,
+            "value": {
+              "__uuid__": "e884c999-d621-407d-8a93-5f15a97ac98f"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "stopMove",
+      "params": []
+    },
+    {
+      "frame": 0.8333333333333334,
+      "func": "playerDestroy",
+      "params": []
+    }
+  ]
+}
